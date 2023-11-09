@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Todo List',
+        title: 'Campo Minado',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),

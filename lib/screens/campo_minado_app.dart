@@ -59,12 +59,12 @@ class _CampoMinadoAppState extends State<CampoMinadoApp> {
       int qtdeColunas = 15;
       //double tamanhoCampo = largura / qtdeColunas;
       //int qtdeLinhas = (altura / tamanhoCampo).floor();
-      int qtdeLinhas = 27;
+      int qtdeLinhas = 20;
 
       _tabuleiro = Tabuleiro(
         linhas: qtdeLinhas,
         colunas: qtdeColunas,
-        qtdeBombas: 30,
+        qtdeBombas: 50,
       );
     }
     return _tabuleiro!;
